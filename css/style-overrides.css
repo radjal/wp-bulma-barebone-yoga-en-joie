@@ -1,0 +1,327 @@
+
+body {
+    background-color: #ffeb9c;
+    color: #c75e09;
+    /* google fonts 
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Merienda One', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
+    */
+  }
+  
+  .title,
+  .subtitle,
+  a.navbar-item {
+    font-family: "Merienda One", cursive;
+  }
+  
+  strong {
+    /* color: #c75e09 !important; */
+  }
+  
+  .title {
+    color: #fb8f12;
+  }
+  
+  .title:hover {
+    color: #ff8500;
+  }
+  
+  .myBoxSlides {
+    height: initial;
+  }
+  
+  .tile-xs {
+    -webkit-box-flex: 0;
+    flex: none;
+    min-height: 214px;
+  }
+  
+  .items-to-bring img {
+    max-height: 160px;
+  }
+  
+  /* scroll animation classes */
+  
+  .in-view:not(.in-view-active) {
+    opacity: 0.3;
+  }
+  
+  .in-view-active {
+    /* color: red;
+      background-color: red;
+    */
+  }
+  
+  .in-view-active {
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+  }
+  
+  /* eula box */
+  
+  #cookie-accept {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: gray;
+    z-index: 110000;
+  }
+  
+  #cookie-accept i.fas {
+    margin-left: 10px;
+  }
+  
+  #cookie-accept,
+  #cookie-accept .subtitle {
+    color: white;
+  }
+  
+  /*menu*/
+  
+  .navbar.is-dark {
+    background-color: #ff9b28;
+    color: #c75e09;
+  }
+  
+  .navbar.is-dark .navbar-brand .navbar-link,
+  .navbar.is-dark .navbar-brand > .navbar-item {
+    color: #ffffff;
+  }
+  
+  .navbar.is-dark .navbar-brand .navbar-link.is-active,
+  .navbar.is-dark .navbar-brand .navbar-link:hover,
+  .navbar.is-dark .navbar-brand > a.navbar-item.is-active,
+  .navbar.is-dark .navbar-brand > a.navbar-item:hover {
+    /* color: #c75e09; */
+    background-color: transparent;
+  }
+  
+  a.navbar-link.router-link-exact-active.is-active.is-primary:after {
+    border-color: #ffffff;
+  }
+  
+  .navbar.is-dark .navbar-end .navbar-link,
+  .navbar.is-dark .navbar-end > .navbar-item,
+  .navbar.is-dark .navbar-start .navbar-link,
+  .navbar.is-dark .navbar-start > .navbar-item {
+    color: #ffffff;
+  }
+  
+  a.navbar-link.router-link-exact-active.is-active.is-primary {
+    color: #ffffff !important;
+    background-color: #ff8900 !important;
+  }
+  
+  .navbar.is-dark .navbar-end .navbar-link.is-active,
+  .navbar.is-dark .navbar-end .navbar-link:hover,
+  .navbar.is-dark .navbar-end > a.navbar-item.is-active,
+  .navbar.is-dark .navbar-end > a.navbar-item:hover,
+  .navbar.is-dark .navbar-start .navbar-link.is-active,
+  .navbar.is-dark .navbar-start .navbar-link:hover,
+  .navbar.is-dark .navbar-start > a.navbar-item.is-active,
+  .navbar.is-dark .navbar-start > a.navbar-item:hover {
+    background-color: #ff9b28;
+    color: #ffdd57;
+  }
+  
+  .navbar.is-dark .navbar-end .navbar-link::after,
+  .navbar.is-dark .navbar-start .navbar-link::after {
+    border-color: #c75e09;
+  }
+  
+  .navbar.is-dark .navbar-end .navbar-link:hover::after,
+  .navbar.is-dark .navbar-start .navbar-link:hover::after {
+    border-color: #ffdd57;
+  }
+  
+  a.has-text-white:focus,
+  a.has-text-white:hover {
+    color: #c8600a !important;
+  }
+  
+  .navbar-burger.has-text-white span {
+    color: #ffffff;
+  }
+  
+  .navbar-menu {
+    background-color: #ffa640;
+    /* color: #ffdd57; */
+  }
+  
+  .title-animated {
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  section.hero.contact {
+    background-color: #ff8500;
+    color: #fff;
+  }
+  
+  section.contact .title {
+    text-align: center;
+    color: #ffeb9c;
+  }
+  
+  .contact .button {
+    margin-top: 2rem;
+  }
+  
+  section.contact .button {
+    background: #ffffff;
+    color: #ff8500;
+  }
+  
+  section.contact .button:hover {
+    background: #ff9b28;
+    color: #ffffff;
+  }
+  
+  .contact-form textarea:hover,
+  .contact-form input:hover,
+  .contact-form select option:hover {
+    border-color: #ffeb9c;
+  }
+  
+  section .contact input,
+  section .contact textarea,
+  section .contact select {
+    background: #ff9b284d;
+    color: #ffffff;
+    /* background: transparent; */
+  }
+  
+  section .contact input:focus,
+  section .contact textarea:focus,
+  section .contact select:focus {
+    background: #ffeb9c;
+    color: #ff8500;
+    font-weight: bold;
+  }
+  
+  /* messages */
+  
+  #messages {
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 1111111;
+  }
+  
+  #messages .notification {
+    margin: 0;
+  }
+  
+  .selfie-vector svg {
+    max-width: 540px;
+    max-height: 330px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .page-content {
+    overflow: hidden;
+  }
+  
+  /* form  */
+  
+  fieldset {
+    border-width: 0;
+    border: none;
+  }
+  
+  /*
+  .home-page .notification.is-success {
+    background-color: #c75e09;
+    color: #fff;
+  } */
+  
+  .menu-label:first-child {
+    margin-bottom: 0;
+  }
+  
+  /* footer */
+  
+  #footer {
+    padding: 5rem;
+    background-color: #ff9b28;
+    /* height: 50rem; */
+  }
+  
+  .footer-copyright {
+    margin-top: 50px;
+    color: white;
+  }
+  
+  .footer-menu.buttons {
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+  
+  #footer .menu-label {
+    width: 100%;
+  }
+  
+  #footer .menu-label.button {
+    background-color: #fb8f12;
+    color: #fff;
+    border-color: transparent;
+  }
+  
+  #footer .button.is-primary.is-focused:not(:active),
+  #footer .button.is-primary:focus:not(:active) {
+    box-shadow: 0 0 0 0.125em #c75e09;
+  }
+  
+  #footer .button.is-primary.is-active,
+  #footer .button.is-primary:active {
+    background-color: #ff8900;
+    color: #fff;
+    border-color: initial;
+  }
+  
+  /* responsive */
+  
+  @media screen and (min-width: 376px) {
+    .tile-xs {
+      -webkit-box-flex: 0;
+      -ms-flex: none;
+      width: 50%;
+      float: left;
+      min-height: 165px;
+    }
+  
+    #footer .menu-label {
+      width: initial;
+    }
+  }
+  
+  @media screen and (min-width: 472px) {
+    .tile-xs {
+      min-height: 237px;
+    }
+  
+    .title-animated {
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 769px) {
+    .tile-xs {
+      min-height: 196px;
+    }
+  
+    .contact-form {
+      max-width: 50%;
+      margin: auto;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .navbar-menu {
+      background-color: transparent;
+    }
+  }
+  
+  
